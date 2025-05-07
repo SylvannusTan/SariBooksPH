@@ -1,0 +1,5 @@
+console.log("Build Info:")
+console.log("Node version:", process.version)
+console.log("Current directory:", process.cwd())
+console.log("Environment variables:", Object.keys(process.env))
+console.log("Package.json:", require("./package.json"))
